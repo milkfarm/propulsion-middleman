@@ -32,9 +32,6 @@ title: contact
       .col-md-8.pad-top-half.pad-left-half
         %h2{ style: 'margin-bottom:1em;' } Please complete the form
         = form_tag '', name: 'contact', id: 'contact_form', method: 'POST', 'data-netlify': true do
-          %input{ type: 'hidden', name: 'utf8', value: '✓' }
-          .row{ style: 'margin-left:0;' }
-            %p.msg{ style: 'display:none;' } Please complete the form accordingly.
           .row{ style: 'margin-left:0;' }
             %input.form-control#name{ name: 'name', placeholder: 'Name', required: 'required', type: 'text' }
             %input.form-control#email{ name: 'email', placeholder: 'E-mail', required: 'required', type: 'email' }
