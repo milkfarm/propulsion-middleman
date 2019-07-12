@@ -1,0 +1,231 @@
+---
+title: portfolio
+---
+
+%section.main-headline.white-bg
+  .container-fluid
+    .row
+      .col-md-7.no-pad.text-left.header-caps
+        %h2.black.font2bold
+          Our work
+        %h3.grey.font3
+          Propulsion has developed solutions for publishers, creative agencies, artists and entrepeneurs
+          %span.color for over a decade.
+          Take a peek at our most recent projects.
+      .col-md-5.no-pad.text-right
+
+%section.white-bg.pad-top-quarter.pad-bottom-quarter
+  .container-fluid
+    .row
+      %section#works-filter-panel.works-filter-panel.white-bg
+        .works-filter-wrap
+          .works-filter.clearfix.font2
+            %li
+              = link_to '#', id: 'all', 'data-filter' => '*', class: 'active' do
+                %span All
+            %li
+              = link_to '#', 'data-filter' => '.publisher' do
+                %span Publishers
+            %li
+              = link_to '#', 'data-filter' => '.other' do
+                %span Other
+
+#works-container.works-container.works-masonry-container.clearfix.white-bg
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/bellwether.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://bellwethermedia.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            Bellwether Media
+            %br (June 2019)
+        %p
+          %span.white.font1 Based on a positive experience with BrainStorm Library, Bellwether Media choose to expand the relationship to encompass their flagship site.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/jump.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://jumplibrary.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            Jump! Inc.
+            %br (April 2019)
+        %p
+          %span.white.font1 Based on a positive experience with BrainStorm Library, Jump! Inc. choose to expand the relationship to encompass their flagship site.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/brainstorm.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://brainstormlibrary.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            BrainStorm Library
+            %br (April 2019)
+        %p
+          %span.white.font1 BrainStorm Library is a joint venture of Bellwether Media and Jump! Inc. They were interested in TitleLeaf for its distribution capabilities and reliable service.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/lerner.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://lernerbooks.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            Lerner Publishing Group
+            %br (June 2018)
+        %p
+          %span.white.font1 Lerner Publishing Group chose TitleLeaf for its ability to import pre-existing product data in ONIX format and for its flexible client support.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/childsworld-2018.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://childsworld.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            The Child's World, Inc.
+            %br (January 2018)
+        %p
+          %span.white.font1 The Child’s World has been a longterm client, for over a decade. This most recent project was to update the user interface with a responsive design that support today's modern browsers and devices.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/riverstream.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://riverstreampublishing.net' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            RiverStream Publishing
+            %br (April 2017)
+        %p
+          %span.white.font1 RiverStream Publishing is using TitleLeaf to present their company and products to their classroom customers.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/delaney.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'http://deebooks.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            Delaney Educational Enterprises
+            %br (September 2016)
+        %p
+          %span.white.font1 Delaney Educational Enterprises is using TitleLeaf to empower their sales force.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/jappleseed.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://jappleseedmedia.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            J. Appleseed
+            %br (September 2015)
+        %p
+          %span.white.font1 J. Appleseed is using TitleLeaf to streamline interaction between sales representatives and their school/library customers.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/bearport.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://bearportpublishing.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            Bearport Publishing
+            %br (August 2015)
+        %p
+          %span.white.font1 Bearport Publishing wanted to avoid the big upgrade expense associated with CyberWolf's PowerWeb solution. TitleLeaf fit the bill.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/epicpress.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://epicpress.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            EPIC Press
+            %br (May 2015)
+        %p
+          %span.white.font1 EPIC Press is a sister company to ABDO Publishing. Based on ABDO's positive experience with TitleLeaf, EPIC Press came directly to us for an ecommerce website.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/midamerica.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://midamericabooks.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            MidAmerica Books
+            %br (October 2014)
+        %p
+          %span.white.font1 MidAmerica Books chose TitleLeaf considering it’s long-standing history and custom features that address their book preview business model.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/abdopub.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://abdopublishing.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            ABDO Publishing
+            %br (July 2014)
+        %p
+          %span.white.font1 After testing a WordPress ecommerce solution, Abdo Publishing decided an application built for the unique needs of publishers was more appropriate.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/sleepingbear.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://sleepingbearpress.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            Sleeping Bear Press
+            %br (December 2012)
+        %p
+          %span.white.font1 Showcasing the flexibility of titleleaf, we developed this site for Sleeping Bear Press following the structure and design of their pre-existing, static site.
+
+  .works-item.works-item-one-half.info.other
+    = image_tag 'portfolio/bourgeois.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'http://bourgeoisdesign.co' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            Bourgeois Interior Design
+            %br (October 2012)
+        %p
+          %span.white.font1 Bourgeois Interior Design approached us based on the work we had done for their partners. The simplicity of folio was an immediate selling point.
+
+  .works-item.works-item-one-half.info.other
+    = image_tag 'portfolio/mollyomara.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'http://mollyomara.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            Molly O'Mara
+            %br (June 2010)
+        %p
+          %span.white.font1 Although outside our normal client base, we jumped at the possibility of working with artist Molly O’Mara. Communicating her large-scale art via a website offered a unique challenge.
+
+  .works-item.works-item-one-half.info.other
+    = image_tag 'portfolio/dreamslice.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'http://dreamslice.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            Dreamslice International
+            %br (December 2008)
+        %p
+          %span.white.font1 Dreamslice International approached propulsion to develop an online site devoted to shared-ownership real estate. The resulting application displayed properties from multiple MLS feeds as an overlay on Google Maps and matched like-minded buyers.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/childsworld.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://childsworld.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            The Child's World
+            %br (March 2006)
+        %p
+          %span.white.font1 After years of modifying open-source ecommerce solutions to fit the unique needs of the educational publishing market, The Child’s World approached propulsion to develop TitleLeaf.
+
+  .works-item.works-item-one-half.info.publisher
+    = image_tag 'portfolio/cherrylake.jpg', class: 'img-responsive', alt: '', title: ''
+    = link_to 'https://cherrylakepublishing.com' do
+      .works-item-inner
+        %h3
+          %span.white.font2bold
+            Cherry Lake Publishing
+            %br (July 2008)
+        %p
+          %span.white.font1 Within one month they had a web application to syndicate data throughout the national network of resellers and a virtual storefront to facilitate credit card purchases from customers direct.
